@@ -7,15 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A431F032CE1CCFC00F4D936 /* cryptoList.json in Resources */ = {isa = PBXBuildFile; fileRef = 8ADAF4AA2CE1418E0066979A /* cryptoList.json */; };
+		8A431F062CE1DB1100F4D936 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A431F052CE1DB1100F4D936 /* NoDataView.swift */; };
+		8A431F092CE1E7F500F4D936 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A431F082CE1E7F500F4D936 /* UIAlertControllerExtension.swift */; };
 		8ADAF4332CDF2A2F0066979A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4322CDF2A2F0066979A /* AppDelegate.swift */; };
 		8ADAF4352CDF2A2F0066979A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4342CDF2A2F0066979A /* SceneDelegate.swift */; };
-		8ADAF4372CDF2A2F0066979A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4362CDF2A2F0066979A /* ViewController.swift */; };
+		8ADAF4372CDF2A2F0066979A /* CryptoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4362CDF2A2F0066979A /* CryptoListViewController.swift */; };
 		8ADAF43A2CDF2A2F0066979A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADAF4382CDF2A2F0066979A /* Main.storyboard */; };
 		8ADAF43C2CDF2A310066979A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADAF43B2CDF2A310066979A /* Assets.xcassets */; };
 		8ADAF43F2CDF2A310066979A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADAF43D2CDF2A310066979A /* LaunchScreen.storyboard */; };
-		8ADAF44A2CDF2A320066979A /* CryptoVerseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4492CDF2A320066979A /* CryptoVerseTests.swift */; };
 		8ADAF4542CDF2A320066979A /* CryptoVerseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4532CDF2A320066979A /* CryptoVerseUITests.swift */; };
 		8ADAF4562CDF2A320066979A /* CryptoVerseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4552CDF2A320066979A /* CryptoVerseUITestsLaunchTests.swift */; };
+		8ADAF4692CDF2BBB0066979A /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4682CDF2BBA0066979A /* RequestProtocol.swift */; };
+		8ADAF46B2CDF2C980066979A /* URLSessionDataTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF46A2CDF2C980066979A /* URLSessionDataTaskProtocol.swift */; };
+		8ADAF46D2CDF2CDA0066979A /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF46C2CDF2CDA0066979A /* URLSessionProtocol.swift */; };
+		8ADAF4722CDF2E320066979A /* CryptoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4712CDF2E320066979A /* CryptoError.swift */; };
+		8ADAF4742CDF2EAB0066979A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4732CDF2EAB0066979A /* HTTPClient.swift */; };
+		8ADAF4762CDF34110066979A /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4752CDF34110066979A /* HTTPMethod.swift */; };
+		8ADAF4792CDF34960066979A /* URLResponseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4782CDF34960066979A /* URLResponseExtension.swift */; };
+		8ADAF47B2CDF35450066979A /* URLSessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF47A2CDF35450066979A /* URLSessionExtension.swift */; };
+		8ADAF47D2CDF35E70066979A /* URLSessionDataTaskExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF47C2CDF35E70066979A /* URLSessionDataTaskExtension.swift */; };
+		8ADAF4802CDF362B0066979A /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF47F2CDF362B0066979A /* NetworkConstants.swift */; };
+		8ADAF4822CDF36E50066979A /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4812CDF36E50066979A /* CryptoService.swift */; };
+		8ADAF4862CDF43890066979A /* CryptoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4852CDF43890066979A /* CryptoListViewModel.swift */; };
+		8ADAF4892CDF453C0066979A /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4882CDF453C0066979A /* CryptoModel.swift */; };
+		8ADAF48C2CDF51540066979A /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF48B2CDF51540066979A /* Bindable.swift */; };
+		8ADAF4902CDF53A40066979A /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF48F2CDF53A40066979A /* ServerError.swift */; };
+		8ADAF4942CE071030066979A /* CryptoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4932CE071030066979A /* CryptoListTableViewCell.swift */; };
+		8ADAF4962CE096350066979A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4952CE096350066979A /* Constants.swift */; };
+		8ADAF49B2CE0B8CC0066979A /* ChipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF49A2CE0B8CC0066979A /* ChipCell.swift */; };
+		8ADAF49E2CE13EB00066979A /* CryptoListErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF49D2CE13EAF0066979A /* CryptoListErrorTests.swift */; };
+		8ADAF4A12CE13F600066979A /* BadMockSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4A02CE13F600066979A /* BadMockSession.swift */; };
+		8ADAF4A32CE13F910066979A /* MockDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4A22CE13F910066979A /* MockDataTask.swift */; };
+		8ADAF4A52CE13FD40066979A /* MockSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4A42CE13FD40066979A /* MockSession.swift */; };
+		8ADAF4A82CE140770066979A /* MockRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4A72CE140760066979A /* MockRequest.swift */; };
+		8ADAF4AB2CE1418E0066979A /* cryptoList.json in Resources */ = {isa = PBXBuildFile; fileRef = 8ADAF4AA2CE1418E0066979A /* cryptoList.json */; };
+		8ADAF4AD2CE142650066979A /* CryptoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADAF4AC2CE142650066979A /* CryptoListTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +63,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A431F052CE1DB1100F4D936 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		8A431F082CE1E7F500F4D936 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
 		8ADAF42F2CDF2A2F0066979A /* CryptoVerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoVerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADAF4322CDF2A2F0066979A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8ADAF4342CDF2A2F0066979A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8ADAF4362CDF2A2F0066979A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8ADAF4362CDF2A2F0066979A /* CryptoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewController.swift; sourceTree = "<group>"; };
 		8ADAF4392CDF2A2F0066979A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ADAF43B2CDF2A310066979A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ADAF43E2CDF2A310066979A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8ADAF4402CDF2A310066979A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8ADAF4452CDF2A320066979A /* CryptoVerseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoVerseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ADAF4492CDF2A320066979A /* CryptoVerseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoVerseTests.swift; sourceTree = "<group>"; };
 		8ADAF44F2CDF2A320066979A /* CryptoVerseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoVerseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADAF4532CDF2A320066979A /* CryptoVerseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoVerseUITests.swift; sourceTree = "<group>"; };
 		8ADAF4552CDF2A320066979A /* CryptoVerseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoVerseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8ADAF4682CDF2BBA0066979A /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		8ADAF46A2CDF2C980066979A /* URLSessionDataTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskProtocol.swift; sourceTree = "<group>"; };
+		8ADAF46C2CDF2CDA0066979A /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		8ADAF4712CDF2E320066979A /* CryptoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoError.swift; sourceTree = "<group>"; };
+		8ADAF4732CDF2EAB0066979A /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		8ADAF4752CDF34110066979A /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		8ADAF4782CDF34960066979A /* URLResponseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResponseExtension.swift; sourceTree = "<group>"; };
+		8ADAF47A2CDF35450066979A /* URLSessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionExtension.swift; sourceTree = "<group>"; };
+		8ADAF47C2CDF35E70066979A /* URLSessionDataTaskExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDataTaskExtension.swift; sourceTree = "<group>"; };
+		8ADAF47F2CDF362B0066979A /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		8ADAF4812CDF36E50066979A /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		8ADAF4852CDF43890066979A /* CryptoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewModel.swift; sourceTree = "<group>"; };
+		8ADAF4882CDF453C0066979A /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
+		8ADAF48B2CDF51540066979A /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		8ADAF48F2CDF53A40066979A /* ServerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
+		8ADAF4932CE071030066979A /* CryptoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListTableViewCell.swift; sourceTree = "<group>"; };
+		8ADAF4952CE096350066979A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8ADAF49A2CE0B8CC0066979A /* ChipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipCell.swift; sourceTree = "<group>"; };
+		8ADAF49D2CE13EAF0066979A /* CryptoListErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListErrorTests.swift; sourceTree = "<group>"; };
+		8ADAF4A02CE13F600066979A /* BadMockSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadMockSession.swift; sourceTree = "<group>"; };
+		8ADAF4A22CE13F910066979A /* MockDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataTask.swift; sourceTree = "<group>"; };
+		8ADAF4A42CE13FD40066979A /* MockSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSession.swift; sourceTree = "<group>"; };
+		8ADAF4A72CE140760066979A /* MockRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRequest.swift; sourceTree = "<group>"; };
+		8ADAF4AA2CE1418E0066979A /* cryptoList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cryptoList.json; sourceTree = "<group>"; };
+		8ADAF4AC2CE142650066979A /* CryptoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +129,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A431F042CE1DA8A00F4D936 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				8A431F052CE1DB1100F4D936 /* NoDataView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		8A431F072CE1E7D300F4D936 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8A431F082CE1E7F500F4D936 /* UIAlertControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8ADAF4262CDF2A2F0066979A = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +168,16 @@
 		8ADAF4312CDF2A2F0066979A /* CryptoVerse */ = {
 			isa = PBXGroup;
 			children = (
-				8ADAF4322CDF2A2F0066979A /* AppDelegate.swift */,
-				8ADAF4342CDF2A2F0066979A /* SceneDelegate.swift */,
-				8ADAF4362CDF2A2F0066979A /* ViewController.swift */,
-				8ADAF4382CDF2A2F0066979A /* Main.storyboard */,
-				8ADAF43B2CDF2A310066979A /* Assets.xcassets */,
-				8ADAF43D2CDF2A310066979A /* LaunchScreen.storyboard */,
+				8A431F072CE1E7D300F4D936 /* Extensions */,
+				8ADAF4912CE06FCA0066979A /* Views */,
+				8ADAF48A2CDF513D0066979A /* Utilities */,
+				8ADAF4872CDF45060066979A /* Model */,
+				8ADAF4832CDF43610066979A /* ViewModels */,
+				8ADAF4662CDF2B920066979A /* Networking */,
+				8ADAF4622CDF2A720066979A /* AppDelegates */,
+				8ADAF4632CDF2A8E0066979A /* Controllers */,
+				8ADAF4642CDF2AA60066979A /* Storyboards */,
+				8ADAF4652CDF2AB60066979A /* Resources */,
 				8ADAF4402CDF2A310066979A /* Info.plist */,
 			);
 			path = CryptoVerse;
@@ -113,7 +186,9 @@
 		8ADAF4482CDF2A320066979A /* CryptoVerseTests */ = {
 			isa = PBXGroup;
 			children = (
-				8ADAF4492CDF2A320066979A /* CryptoVerseTests.swift */,
+				8ADAF4A62CE140640066979A /* MockData */,
+				8ADAF49F2CE13F430066979A /* MockNetworking */,
+				8ADAF49C2CE13E7E0066979A /* CryptoListTests */,
 			);
 			path = CryptoVerseTests;
 			sourceTree = "<group>";
@@ -125,6 +200,186 @@
 				8ADAF4552CDF2A320066979A /* CryptoVerseUITestsLaunchTests.swift */,
 			);
 			path = CryptoVerseUITests;
+			sourceTree = "<group>";
+		};
+		8ADAF4622CDF2A720066979A /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4322CDF2A2F0066979A /* AppDelegate.swift */,
+				8ADAF4342CDF2A2F0066979A /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		8ADAF4632CDF2A8E0066979A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4362CDF2A2F0066979A /* CryptoListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8ADAF4642CDF2AA60066979A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4382CDF2A2F0066979A /* Main.storyboard */,
+				8ADAF43D2CDF2A310066979A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8ADAF4652CDF2AB60066979A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF43B2CDF2A310066979A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8ADAF4662CDF2B920066979A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4812CDF36E50066979A /* CryptoService.swift */,
+				8ADAF47E2CDF36130066979A /* Constants */,
+				8ADAF4772CDF34830066979A /* Extensions */,
+				8ADAF4702CDF2E1A0066979A /* HTTPClient */,
+				8ADAF4672CDF2BA70066979A /* Protocols */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8ADAF4672CDF2BA70066979A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4682CDF2BBA0066979A /* RequestProtocol.swift */,
+				8ADAF46A2CDF2C980066979A /* URLSessionDataTaskProtocol.swift */,
+				8ADAF46C2CDF2CDA0066979A /* URLSessionProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8ADAF4702CDF2E1A0066979A /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4712CDF2E320066979A /* CryptoError.swift */,
+				8ADAF4732CDF2EAB0066979A /* HTTPClient.swift */,
+				8ADAF4752CDF34110066979A /* HTTPMethod.swift */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		8ADAF4772CDF34830066979A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4782CDF34960066979A /* URLResponseExtension.swift */,
+				8ADAF47A2CDF35450066979A /* URLSessionExtension.swift */,
+				8ADAF47C2CDF35E70066979A /* URLSessionDataTaskExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8ADAF47E2CDF36130066979A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF47F2CDF362B0066979A /* NetworkConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8ADAF4832CDF43610066979A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4842CDF43750066979A /* CryptoListViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8ADAF4842CDF43750066979A /* CryptoListViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4852CDF43890066979A /* CryptoListViewModel.swift */,
+			);
+			path = CryptoListViewModel;
+			sourceTree = "<group>";
+		};
+		8ADAF4872CDF45060066979A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4882CDF453C0066979A /* CryptoModel.swift */,
+				8ADAF48F2CDF53A40066979A /* ServerError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8ADAF48A2CDF513D0066979A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF48B2CDF51540066979A /* Bindable.swift */,
+				8ADAF4952CE096350066979A /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8ADAF4912CE06FCA0066979A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A431F042CE1DA8A00F4D936 /* CustomViews */,
+				8ADAF4992CE0B8BD0066979A /* CollectionViewCells */,
+				8ADAF4922CE06FD70066979A /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8ADAF4922CE06FD70066979A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4932CE071030066979A /* CryptoListTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		8ADAF4992CE0B8BD0066979A /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF49A2CE0B8CC0066979A /* ChipCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		8ADAF49C2CE13E7E0066979A /* CryptoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF49D2CE13EAF0066979A /* CryptoListErrorTests.swift */,
+				8ADAF4AC2CE142650066979A /* CryptoListTests.swift */,
+			);
+			path = CryptoListTests;
+			sourceTree = "<group>";
+		};
+		8ADAF49F2CE13F430066979A /* MockNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4A02CE13F600066979A /* BadMockSession.swift */,
+				8ADAF4A22CE13F910066979A /* MockDataTask.swift */,
+				8ADAF4A42CE13FD40066979A /* MockSession.swift */,
+			);
+			path = MockNetworking;
+			sourceTree = "<group>";
+		};
+		8ADAF4A62CE140640066979A /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4A92CE141720066979A /* JSONStub */,
+				8ADAF4A72CE140760066979A /* MockRequest.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		8ADAF4A92CE141720066979A /* JSONStub */ = {
+			isa = PBXGroup;
+			children = (
+				8ADAF4AA2CE1418E0066979A /* cryptoList.json */,
+			);
+			path = JSONStub;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +486,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A431F032CE1CCFC00F4D936 /* cryptoList.json in Resources */,
 				8ADAF43F2CDF2A310066979A /* LaunchScreen.storyboard in Resources */,
 				8ADAF43C2CDF2A310066979A /* Assets.xcassets in Resources */,
 				8ADAF43A2CDF2A2F0066979A /* Main.storyboard in Resources */,
@@ -241,6 +497,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADAF4AB2CE1418E0066979A /* cryptoList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +515,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ADAF4372CDF2A2F0066979A /* ViewController.swift in Sources */,
+				8A431F092CE1E7F500F4D936 /* UIAlertControllerExtension.swift in Sources */,
+				8ADAF4802CDF362B0066979A /* NetworkConstants.swift in Sources */,
+				8ADAF4722CDF2E320066979A /* CryptoError.swift in Sources */,
+				8ADAF46D2CDF2CDA0066979A /* URLSessionProtocol.swift in Sources */,
+				8ADAF4742CDF2EAB0066979A /* HTTPClient.swift in Sources */,
+				8ADAF4942CE071030066979A /* CryptoListTableViewCell.swift in Sources */,
+				8A431F062CE1DB1100F4D936 /* NoDataView.swift in Sources */,
+				8ADAF4372CDF2A2F0066979A /* CryptoListViewController.swift in Sources */,
 				8ADAF4332CDF2A2F0066979A /* AppDelegate.swift in Sources */,
+				8ADAF48C2CDF51540066979A /* Bindable.swift in Sources */,
+				8ADAF4822CDF36E50066979A /* CryptoService.swift in Sources */,
+				8ADAF4762CDF34110066979A /* HTTPMethod.swift in Sources */,
 				8ADAF4352CDF2A2F0066979A /* SceneDelegate.swift in Sources */,
+				8ADAF47D2CDF35E70066979A /* URLSessionDataTaskExtension.swift in Sources */,
+				8ADAF4862CDF43890066979A /* CryptoListViewModel.swift in Sources */,
+				8ADAF4692CDF2BBB0066979A /* RequestProtocol.swift in Sources */,
+				8ADAF4792CDF34960066979A /* URLResponseExtension.swift in Sources */,
+				8ADAF4962CE096350066979A /* Constants.swift in Sources */,
+				8ADAF46B2CDF2C980066979A /* URLSessionDataTaskProtocol.swift in Sources */,
+				8ADAF4892CDF453C0066979A /* CryptoModel.swift in Sources */,
+				8ADAF49B2CE0B8CC0066979A /* ChipCell.swift in Sources */,
+				8ADAF47B2CDF35450066979A /* URLSessionExtension.swift in Sources */,
+				8ADAF4902CDF53A40066979A /* ServerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +545,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ADAF44A2CDF2A320066979A /* CryptoVerseTests.swift in Sources */,
+				8ADAF4A12CE13F600066979A /* BadMockSession.swift in Sources */,
+				8ADAF4A32CE13F910066979A /* MockDataTask.swift in Sources */,
+				8ADAF4A52CE13FD40066979A /* MockSession.swift in Sources */,
+				8ADAF4A82CE140770066979A /* MockRequest.swift in Sources */,
+				8ADAF4AD2CE142650066979A /* CryptoListTests.swift in Sources */,
+				8ADAF49E2CE13EB00066979A /* CryptoListErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

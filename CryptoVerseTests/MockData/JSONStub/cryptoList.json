@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "is_new": false,
+    "is_active": true,
+    "type": "coin"
+  },
+  {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "is_new": false,
+    "is_active": true,
+    "type": "token"
+  },
+  {
+    "name": "Ripple",
+    "symbol": "XRP",
+    "is_new": false,
+    "is_active": false,
+    "type": "coin"
+  },
+  {
+    "name": "Cardano",
+    "symbol": "ADA",
+    "is_new": true,
+    "is_active": true,
+    "type": "coin"
+  },
+  {
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "is_new": false,
+    "is_active": true,
+    "type": "coin"
+  }
+]
