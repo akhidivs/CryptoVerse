@@ -16,6 +16,11 @@ Please find the recording here:
 
 https://github.com/user-attachments/assets/284df1af-8aea-4a9f-88d1-d97e8ed6de65
 
+### Code Coverage
+
+![Screenshot 2024-11-11 at 1 38 37 PM](https://github.com/user-attachments/assets/58370b69-2fa0-4a6d-9b16-ec27e9bd27fa)
+
+
 ## Other Details
 
 - I'm using MacBook Air (13-inch, 2017) which only supports Xcode 14 and not the latest version of Xcode and Swift
